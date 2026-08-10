@@ -1,0 +1,5 @@
+status,recommended_action,additional_cost,expected_delay_risk,delay_probability
+Optimal,standard_shipping,0,0.2,0.2
+Optimal,standard_shipping,0,0.5,0.5
+Optimal,standard_shipping,0,0.8,0.8
+Optimal,standard_shipping,0,0.95,0.95
