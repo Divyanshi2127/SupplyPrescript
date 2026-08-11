@@ -1,0 +1,26 @@
+shipment_index,delay_probability,predicted_delay,risk_level,recommended_action,additional_cost,expected_delay_risk,optimization_status
+0,0.000245116010773927,0,Low Risk,standard_shipping,0,0.000245116010773927,Optimal
+1,0.00036734642344526947,0,Low Risk,standard_shipping,0,0.00036734642344526947,Optimal
+2,5.926718222326599e-05,0,Low Risk,standard_shipping,0,5.926718222326599e-05,Optimal
+3,0.23460498452186584,0,Low Risk,standard_shipping,0,0.23460498452186584,Optimal
+4,0.7052120566368103,1,High Risk,standard_shipping,0,0.7052120566368103,Optimal
+5,0.00553937116637826,0,Low Risk,standard_shipping,0,0.00553937116637826,Optimal
+6,0.9999351501464844,1,High Risk,standard_shipping,0,0.9999351501464844,Optimal
+7,0.00035608690814115107,0,Low Risk,standard_shipping,0,0.00035608690814115107,Optimal
+8,0.999754011631012,1,High Risk,standard_shipping,0,0.999754011631012,Optimal
+9,0.99988853931427,1,High Risk,standard_shipping,0,0.99988853931427,Optimal
+10,6.319231033558026e-05,0,Low Risk,standard_shipping,0,6.319231033558026e-05,Optimal
+11,0.9999799728393555,1,High Risk,standard_shipping,0,0.9999799728393555,Optimal
+12,0.0014052296755835414,0,Low Risk,standard_shipping,0,0.0014052296755835414,Optimal
+13,0.36997225880622864,0,Low Risk,standard_shipping,0,0.36997225880622864,Optimal
+14,0.999679684638977,1,High Risk,standard_shipping,0,0.999679684638977,Optimal
+15,8.368934504687786e-05,0,Low Risk,standard_shipping,0,8.368934504687786e-05,Optimal
+16,0.9999287128448486,1,High Risk,standard_shipping,0,0.9999287128448486,Optimal
+17,0.9998897314071655,1,High Risk,standard_shipping,0,0.9998897314071655,Optimal
+18,0.9998935461044312,1,High Risk,standard_shipping,0,0.9998935461044312,Optimal
+19,0.9999105930328369,1,High Risk,standard_shipping,0,0.9999105930328369,Optimal
+20,0.9996492862701416,1,High Risk,standard_shipping,0,0.9996492862701416,Optimal
+21,0.999724805355072,1,High Risk,standard_shipping,0,0.999724805355072,Optimal
+22,0.999915361404419,1,High Risk,standard_shipping,0,0.999915361404419,Optimal
+23,0.9998819828033447,1,High Risk,standard_shipping,0,0.9998819828033447,Optimal
+24,5.008250445825979e-05,0,Low Risk,standard_shipping,0,5.008250445825979e-05,Optimal
