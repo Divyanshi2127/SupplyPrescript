@@ -1,0 +1,26 @@
+shipment_index,delay_probability,risk_level,recommended_action,manager_decision,additional_cost,actual_cost,cost_difference,expected_delay_risk,actual_delay_days,outcome_status,recommendation_followed,recommendation_success
+0,0.0002451160107739,Low Risk,standard_shipping,air_freight,0,1576,1576,0.0002451160107739,0,Successful,False,False
+1,0.0003673464234452,Low Risk,standard_shipping,standard_shipping,0,610,610,0.0003673464234452,4,Delayed,True,False
+2,5.926718222326599e-05,Low Risk,standard_shipping,standard_shipping,0,2291,2291,5.926718222326599e-05,3,Delayed,True,False
+3,0.2346049845218658,Low Risk,standard_shipping,standard_shipping,0,1182,1182,0.2346049845218658,2,Delayed,True,False
+4,0.7052120566368103,High Risk,standard_shipping,standard_shipping,0,774,774,0.7052120566368103,2,Delayed,True,False
+5,0.0055393711663782,Low Risk,standard_shipping,air_freight,0,802,802,0.0055393711663782,5,Delayed,False,False
+6,0.9999351501464844,High Risk,standard_shipping,standard_shipping,0,0,0,0.9999351501464844,0,Successful,True,True
+7,0.0003560869081411,Low Risk,standard_shipping,standard_shipping,0,0,0,0.0003560869081411,4,Delayed,True,False
+8,0.999754011631012,High Risk,standard_shipping,standard_shipping,0,1218,1218,0.999754011631012,1,Successful,True,True
+9,0.99988853931427,High Risk,standard_shipping,standard_shipping,0,2552,2552,0.99988853931427,0,Successful,True,True
+10,6.319231033558026e-05,Low Risk,standard_shipping,air_freight,0,0,0,6.319231033558026e-05,3,Delayed,False,False
+11,0.9999799728393556,High Risk,standard_shipping,standard_shipping,0,2434,2434,0.9999799728393556,5,Delayed,True,False
+12,0.0014052296755835,Low Risk,standard_shipping,standard_shipping,0,2311,2311,0.0014052296755835,4,Delayed,True,False
+13,0.3699722588062286,Low Risk,standard_shipping,standard_shipping,0,107,107,0.3699722588062286,4,Delayed,True,False
+14,0.999679684638977,High Risk,standard_shipping,standard_shipping,0,1527,1527,0.999679684638977,4,Delayed,True,False
+15,8.368934504687786e-05,Low Risk,standard_shipping,air_freight,0,0,0,8.368934504687786e-05,4,Delayed,False,False
+16,0.9999287128448486,High Risk,standard_shipping,standard_shipping,0,2033,2033,0.9999287128448486,3,Delayed,True,False
+17,0.9998897314071656,High Risk,standard_shipping,standard_shipping,0,1802,1802,0.9998897314071656,0,Successful,True,True
+18,0.9998935461044312,High Risk,standard_shipping,standard_shipping,0,418,418,0.9998935461044312,5,Delayed,True,False
+19,0.9999105930328368,High Risk,standard_shipping,standard_shipping,0,0,0,0.9999105930328368,2,Delayed,True,False
+20,0.9996492862701416,High Risk,standard_shipping,air_freight,0,2883,2883,0.9996492862701416,3,Delayed,False,False
+21,0.999724805355072,High Risk,standard_shipping,standard_shipping,0,783,783,0.999724805355072,2,Delayed,True,False
+22,0.999915361404419,High Risk,standard_shipping,standard_shipping,0,2573,2573,0.999915361404419,1,Successful,True,True
+23,0.9998819828033448,High Risk,standard_shipping,standard_shipping,0,1712,1712,0.9998819828033448,5,Delayed,True,False
+24,5.008250445825979e-05,Low Risk,standard_shipping,standard_shipping,0,2114,2114,5.008250445825979e-05,4,Delayed,True,False
