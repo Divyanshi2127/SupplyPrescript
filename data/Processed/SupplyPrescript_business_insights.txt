@@ -1,0 +1,9 @@
+SUPPLYPRESCRIPT BUSINESS INSIGHTS
+================================
+
+1. 56.00% of evaluated shipments were classified as High Risk.
+2. The most frequently recommended action was 'standard_shipping'.
+3. Recommendation follow-through was 80.00% in the prototype feedback data.
+4. The prototype overall recommendation success rate was 20.00%.
+5. The average difference between estimated and actual operational cost was $1,268.08.
+6. 9 high-risk unsuccessful cases were identified for further review.
