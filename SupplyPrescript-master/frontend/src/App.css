@@ -1,0 +1,632 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Arial, sans-serif;
+  color: #e6edf7;
+
+  background:
+    radial-gradient(
+      circle at 15% 15%,
+      rgba(0, 229, 255, 0.12),
+      transparent 25%
+    ),
+    radial-gradient(
+      circle at 85% 20%,
+      rgba(99, 102, 241, 0.14),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 50% 100%,
+      rgba(0, 119, 255, 0.10),
+      transparent 30%
+    ),
+    #050b16;
+
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+
+/* =========================
+   PAGE
+========================= */
+
+.page {
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 50px 20px;
+
+  position: relative;
+
+  overflow: hidden;
+}
+
+
+/* Subtle AI grid */
+
+.page::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background-image:
+    linear-gradient(
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.025) 1px,
+      transparent 1px
+    );
+
+  background-size: 45px 45px;
+
+  pointer-events: none;
+}
+
+
+/* =========================
+   MAIN CARD
+========================= */
+
+.container {
+  width: 640px;
+  max-width: 95%;
+
+  padding: 48px;
+
+  position: relative;
+  z-index: 1;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(15, 27, 48, 0.96),
+      rgba(7, 16, 30, 0.97)
+    );
+
+  border: 1px solid rgba(100, 180, 255, 0.16);
+
+  border-radius: 26px;
+
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.45),
+    0 0 60px rgba(0, 174, 255, 0.06);
+
+  backdrop-filter: blur(18px);
+}
+
+
+/* Top glowing line */
+
+.container::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 12%;
+
+  width: 76%;
+  height: 1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      transparent,
+      #00e5ff,
+      #6366f1,
+      transparent
+    );
+
+  box-shadow:
+    0 0 15px rgba(0, 229, 255, 0.6);
+}
+
+
+/* =========================
+   HEADER
+========================= */
+
+.header {
+  text-align: center;
+
+  margin-bottom: 42px;
+}
+
+
+/* AI Logo */
+
+.logo {
+  width: 68px;
+  height: 68px;
+
+  margin: 0 auto 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #00c6ff,
+      #0072ff 55%,
+      #6366f1
+    );
+
+  color: white;
+
+  font-size: 19px;
+
+  font-weight: 900;
+
+  letter-spacing: 1px;
+
+  box-shadow:
+    0 0 25px rgba(0, 198, 255, 0.25),
+    inset 0 0 20px rgba(255, 255, 255, 0.12);
+}
+
+
+/* Heading */
+
+h1 {
+  margin: 0;
+
+  font-size: 45px;
+
+  line-height: 1.15;
+
+  font-weight: 850;
+
+  letter-spacing: -1px;
+
+  background:
+    linear-gradient(
+      90deg,
+      #ffffff,
+      #8be9ff 45%,
+      #8b9cff
+    );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  background-clip: text;
+}
+
+
+/* Subtitle */
+
+.header p {
+  max-width: 450px;
+
+  margin: 16px auto 0;
+
+  color: #8ea3bd;
+
+  font-size: 15px;
+
+  line-height: 1.7;
+
+  letter-spacing: 0.15px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.form {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+
+.input-group {
+  display: flex;
+
+  flex-direction: column;
+}
+
+
+/* Labels */
+
+label {
+  margin-bottom: 10px;
+
+  color: #b8c7da;
+
+  font-size: 14px;
+
+  font-weight: 700;
+
+  letter-spacing: 0.3px;
+}
+
+
+/* =========================
+   INPUT
+========================= */
+
+input[type="number"] {
+  width: 100%;
+
+  height: 54px;
+
+  padding: 0 17px;
+
+  border: 1px solid rgba(126, 166, 210, 0.20);
+
+  border-radius: 12px;
+
+  outline: none;
+
+  background:
+    rgba(3, 12, 25, 0.75);
+
+  color: #f1f7ff;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  transition: all 0.25s ease;
+}
+
+
+input[type="number"]:hover {
+  border-color: rgba(0, 198, 255, 0.35);
+
+  background:
+    rgba(5, 18, 35, 0.85);
+}
+
+
+input[type="number"]:focus {
+  border-color: #00c6ff;
+
+  background:
+    rgba(5, 20, 38, 0.95);
+
+  box-shadow:
+    0 0 0 3px rgba(0, 198, 255, 0.09),
+    0 0 20px rgba(0, 198, 255, 0.07);
+}
+
+
+input[type="number"]::placeholder {
+  color: #53677f;
+}
+
+
+/* Number arrows */
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  opacity: 0.7;
+}
+
+
+/* =========================
+   BUTTON
+========================= */
+
+button {
+  width: 100%;
+
+  height: 54px;
+
+  margin-top: 8px;
+
+  border: none;
+
+  border-radius: 12px;
+
+  background:
+    linear-gradient(
+      100deg,
+      #0072ff,
+      #00b8ff 55%,
+      #6366f1
+    );
+
+  color: #ffffff;
+
+  font-size: 15px;
+
+  font-weight: 800;
+
+  letter-spacing: 0.25px;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 10px 30px rgba(0, 114, 255, 0.25),
+    0 0 20px rgba(0, 198, 255, 0.08);
+
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+button:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 15px 35px rgba(0, 114, 255, 0.35),
+    0 0 30px rgba(0, 198, 255, 0.12);
+}
+
+
+button:active {
+  transform: translateY(0);
+}
+
+
+button:disabled {
+  background: #334155;
+
+  color: #94a3b8;
+
+  cursor: not-allowed;
+
+  box-shadow: none;
+
+  transform: none;
+}
+
+
+/* =========================
+   RESULTS
+========================= */
+
+.results {
+  margin-top: 42px;
+
+  padding-top: 30px;
+
+  border-top:
+    1px solid rgba(126, 166, 210, 0.13);
+}
+
+
+.results h2 {
+  margin: 0 0 23px;
+
+  text-align: center;
+
+  color: #dcecff;
+
+  font-size: 21px;
+
+  font-weight: 750;
+
+  letter-spacing: 0.2px;
+}
+
+
+/* =========================
+   RESULT GRID
+========================= */
+
+.result-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(3, 1fr);
+
+  gap: 15px;
+}
+
+
+/* =========================
+   RESULT CARD
+========================= */
+
+.result-card {
+  min-height: 170px;
+
+  padding: 22px 13px;
+
+  display: flex;
+
+  flex-direction: column;
+
+  align-items: center;
+
+  justify-content: center;
+
+  text-align: center;
+
+  background:
+    linear-gradient(
+      145deg,
+      rgba(18, 34, 57, 0.9),
+      rgba(8, 20, 37, 0.9)
+    );
+
+  border:
+    1px solid rgba(100, 180, 255, 0.13);
+
+  border-radius: 16px;
+
+  transition: all 0.25s ease;
+}
+
+
+.result-card:hover {
+  transform: translateY(-5px);
+
+  border-color:
+    rgba(0, 198, 255, 0.30);
+
+  box-shadow:
+    0 15px 35px rgba(0, 0, 0, 0.25),
+    0 0 20px rgba(0, 198, 255, 0.05);
+}
+
+
+/* =========================
+   ICONS
+========================= */
+
+.icon-box {
+  width: 52px;
+  height: 52px;
+
+  margin-bottom: 14px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  border-radius: 15px;
+
+  font-size: 24px;
+
+  font-weight: 900;
+}
+
+
+/* AI Prediction */
+
+.blue {
+  background:
+    rgba(0, 198, 255, 0.10);
+
+  color: #45dcff;
+
+  border:
+    1px solid rgba(0, 198, 255, 0.18);
+
+  box-shadow:
+    0 0 20px rgba(0, 198, 255, 0.06);
+}
+
+
+/* Risk */
+
+.orange {
+  background:
+    rgba(245, 158, 11, 0.10);
+
+  color: #ffbf5f;
+
+  border:
+    1px solid rgba(245, 158, 11, 0.18);
+}
+
+
+/* Shipment */
+
+.green {
+  background:
+    rgba(34, 211, 170, 0.10);
+
+  color: #3ee6bd;
+
+  border:
+    1px solid rgba(34, 211, 170, 0.18);
+
+  box-shadow:
+    0 0 20px rgba(34, 211, 170, 0.05);
+}
+
+
+/* =========================
+   RESULT TEXT
+========================= */
+
+.result-card h3 {
+  margin: 0 0 8px;
+
+  color: #7f95ae;
+
+  font-size: 12px;
+
+  font-weight: 800;
+
+  text-transform: uppercase;
+
+  letter-spacing: 0.8px;
+}
+
+
+.result-card p {
+  margin: 0;
+
+  color: #edf6ff;
+
+  font-size: 15px;
+
+  font-weight: 750;
+
+  line-height: 1.4;
+}
+
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 650px) {
+
+  .page {
+    padding: 30px 15px;
+  }
+
+  .container {
+    padding: 34px 24px;
+  }
+
+  h1 {
+    font-size: 36px;
+  }
+
+  .result-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .result-card {
+    min-height: 140px;
+  }
+}
+
+
+@media (max-width: 400px) {
+
+  .container {
+    padding: 30px 20px;
+  }
+
+  h1 {
+    font-size: 31px;
+  }
+
+  .header p {
+    font-size: 14px;
+  }
+}
