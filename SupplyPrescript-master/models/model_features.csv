@@ -1,0 +1,34 @@
+Feature,Position
+Type,0
+Days for shipment (scheduled),1
+Benefit per order,2
+Sales per customer,3
+Category Name,4
+Customer City,5
+Customer Country,6
+Customer Segment,7
+Customer State,8
+Department Name,9
+Market,10
+Order City,11
+Order Country,12
+Order Item Discount,13
+Order Item Discount Rate,14
+Order Item Product Price,15
+Order Item Profit Ratio,16
+Order Item Quantity,17
+Sales,18
+Order Item Total,19
+Order Profit Per Order,20
+Order Region,21
+Order State,22
+Product Name,23
+Product Price,24
+Product Status,25
+Shipping Mode,26
+Lead_Time,27
+Order_Month,28
+Order_Year,29
+Order_Weekday,30
+Profit_Margin,31
+High_Value_Order,32
