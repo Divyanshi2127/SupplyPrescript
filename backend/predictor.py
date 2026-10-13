@@ -13,7 +13,7 @@ BASE_DIR = os.path.abspath(
 
 MODEL_PATH = os.path.join(
     BASE_DIR,
-    "Models",
+    "models",
     "Best_model.pkl"
 )
 
